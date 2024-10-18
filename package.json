@@ -31,8 +31,8 @@
   },
   "scripts": {
     "build": "npx tsc",
+    "build:watch": "npx tsc -w",
     "prepare": "npm run build",
-    "install": "npm run build",
     "test": "jest",
     "lint": "npx eslint .",
     "lint:fix": "npx eslint --fix .",
